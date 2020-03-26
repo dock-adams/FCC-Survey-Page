@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Survey</title>
+    <link rel = "stylesheet" type = "text/css" href = "survey.css">
+  </head>
+
+  <body>
+<div id = "survey">
+<header>
+  <h1 id = "title">Restaurant Survey</h1>
+  
+  <p id = "sub"><b>We want to hear your feedback!</b></p>
+  </header>
+  
+  <div id = "container">
+  <form id = "survey-form">
+  
+  <div class = "form-group">
+  <label class = "label-tag" for = "name">Name:</label>
+    <input type = "text" id = "name" placeholder = "Enter your name">
+    </div>
+    
+    <div class = "form-group">
+    <label class = "label-tag" for = "email">E-Mail:</label>
+    <input type = "text" id = "email" placeholder = "Enter your email" required>
+    </div>
+    
+    <div class = "form-group">
+    <label class = "label-tag" for = "number">Age:</label>
+   <input type = "number" id = "number" min = 16 max = 99 placeholder = "Age">
+    </div>
+    
+    <div class = "form-group">
+    <p class = "descriptive form-group">How would you rate our service?</p>
+      <select id="dropdown">
+      <option disabled selected value>Select here</option>      
+      <option value = "excellent">Excellent</option>
+      <option value = "good">Good</option>
+      <option value = "average">Average</option>
+       <option value = "sub-par">Sub-Par</option>
+       <option value = "poor">Poor</option>
+    </select>
+    </div>
+     
+    <div class = "form-group">
+      <p class = "descriptive form-group">What is the best tasting food at our location?</p>
+    <label>
+      <input name = "user-recommended" value = "pizza" type = "radio" checked >Pizza</input>
+    <input name = "user-recommended" value = "spaghetti" type = "radio">Spaghetti</input>
+  <input name = "user-recommended" value = "garlic-bread" type = "radio">Garlic Bread</input>
+    <input name = "user-recommended" value = "pea-soup" type = "radio">Pea Soup</input>
+  <input name = "user-recommended" value = "mozzerella-sticks" type = "radio">Mozzerella Sticks</input>
+  <br>
+  <input name = "user-recommended" value = "caesar-salad" type = "radio">Caesar Salad</input>
+  <input name = "user-recommended" value = "other" type = "radio">Other</input>
+    </label>
+  </div>
+  
+  <div class = "form-group">
+    <p class = "descriptive form-group">Check all that apply to you:</p>
+    <label>
+      <input class = "checkform" name = "preferred" type = "checkbox" value = "first">I've been livin' and breathing Italian food my whole life!</input>
+    <br>
+      <input class = "checkform" name = "preferred" type = "checkbox" value = "second">Never liked Italian food, but your restaurant altered my taste buds.</input>
+    <br>
+      <input class = "checkform" name = "preferred" type = "checkbox" value = "third">Italian food is okay. My family forced me to eat it though.</input>
+    <br>
+      <input class = "checkform" name = "preferred" type = "checkbox" value = "fourth">Can't stand Italian food and can't stand your restaurant!</input>
+      <br>
+      <input class = "checkform" name = "preferred" type = "checkbox" value = "fifth">What's for dessert?</input>
+    </label>
+  </div>
+    
+  <div class = "form-group">
+    <p class = "descriptive form-group">Type in your comments and suggestions here:</p>
+    <textarea id = "comments" class = "input-textarea" name = "comment" placeholder = "Enter your comments here..."></textarea>
+  </div>
+  
+  <footer id = "bottom-button">
+  
+  <button type = "submit" id = "submit">Submit</button>
+ 
+  </footer>
+
+  </form>
+  </div>
+  </div>
+  </body>
+</html>

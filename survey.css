@@ -1,0 +1,88 @@
+body{
+  background: black;
+  
+}
+
+header{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 20px;
+}
+
+#container{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#survey-form{
+/*   width: 300px; */
+  display: inline-block;
+  border: 20px white solid;
+  text-align: center;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.form-group{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px lightgrey dotted;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#submit{
+  font-size: 50px;
+  border: none;
+}
+
+.label-tag{
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.descriptive{
+  font-family: cursive;
+  font-style: normal;
+  border: none;
+}
+
+#sub{
+  font-weight: bold;
+  font-style: normal;
+}
+
+#survey{
+   margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  border: 5px solid white;
+  background-color: maroon;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkform{
+  margin-bottom: 12px;
+}
+
+#dropdown{
+  width: 200px;
+}
+
+::placeholder{
+  padding-left: 3px;
+  font-style: oblique;
+}
+
+#bottom-button{
+  margin-top: 30px;
+}
+
